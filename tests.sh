@@ -1,6 +1,6 @@
 #!/bin/sh
 set -e
-
+set -x
 # Ensure Artist metadata is not corrupt, does exist and >= 3 chars
 test_artist () {
     print_error () {
